@@ -1,19 +1,12 @@
-@font-face {
-  font-family: "script-font";
-  src: url(ILoveGlitteredited.ttf);
-}
-
 /* Reset */
 body,
 html {
   margin: 0px;
   padding: 0px;
-  font-family: "script-font";
+  font-family: "Assistant", sans-serif;
   background-color: rgb(252, 244, 250);
 }
 
-/* The * means everything, so this means everything should use  */
-/* box sizing ie https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing  */
 * {
   box-sizing: border-box;
 }
@@ -34,108 +27,39 @@ a:active {
   color: hotpink;
 }
 
-.cursor {
-  /*cursor: url(https://www.rw-designer.com/cursor-extern.php?id=115007), auto;*/
-  cursor: url(../images/Comb_Black.cur), auto;
-  -webkit-user-drag: none;
-}
-
-.shadow {
-  filter: drop-shadow(0.3rem 0.5rem 0.3rem lightgrey);
-}
-.round-corner {
-  border-radius: 1%;
-}
-
 /*INDEX PAGE START*/
-#indexcontent {
+/* #indexcontent {
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
-}
+} */
 
 .indexname {
   text-align: center;
   font-size: 5em;
   padding: 70px 0;
   margin-top: 42px;
-  grid-column-start: 1;
-  grid-column-end: 3;
   background-color: rgb(255, 211, 211);
   border-bottom: solid 5px white;
-  /* color: white; */
   color: black;
-  /*display: flex;*/
 }
 .indexlogo {
   max-height: 55px;
-  /*position: absolute;
-  left: 25px;
-  top: 176px;*/
   transform: rotate(-20deg);
 }
 
-a.pagelink {
-  background-color: rgb(255, 211, 211);
-  /* color: white; */
-  color: black;
-  padding: 5px 20px;
-  font-size: 2.5em;
-  text-align: center;
-  text-decoration: none;
-}
-a.pagelink:hover {
-  font-style: italic;
+.categories {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-#indexcontent a.item {
-  height: 50vh;
-  max-height: 500px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* color: white; */
-  color: black;
-  text-decoration: none;
-  padding: 20px;
-  font-size: 2.5em;
-}
-
-#indexcontent a.item:hover {
-  font-size: 3em;
-}
-
-.pins {
-  grid-column-start: 1;
-  grid-column-end: 3;
+.category img {
+  max-height: 200px;
+  /* display: flex; */
 }
 /*INDEX PAGE END*/
-
-/* HIDDEN BUY BUTTON START */
-#product-component-10ac280ec45 {
-  display: none;
-}
-/* HIDDEN BUY BUTTON END */
-
-/* 404 styles start*/
-#notfound {
-  padding-top: 55px;
-  padding-bottom: 500px;
-  text-align: center;
-}
-.notfoundtext {
-  font-size: 2em;
-  font-family: "Quicksand", sans-serif;
-}
-.notfoundimg {
-  max-width: 300px;
-}
-/* 404 styles end */
-
-hr.line-break {
-  border: 0;
-  height: 1px;
-  margin-bottom: 20px;
-  background-image: -webkit-linear-gradient(left, #f9e3f6, #f3d1ef, #f9e3f6);
-}
