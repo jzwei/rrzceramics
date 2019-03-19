@@ -1,0 +1,29 @@
+/*WHOLESALE PAGES START*/
+
+.orderform {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+.wholesaleintro {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 40px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.wholesalesectiontitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2em;
+  margin-bottom: 0;
+  color: #f95b8f;
+}
+
+.termsblurb {
+  margin-left: 15px;
+}
+
+iframe {
+  width: 750px;
+  height: 1000px;
+}
