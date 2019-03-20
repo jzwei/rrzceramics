@@ -46,11 +46,17 @@ a:active {
 .indexname {
   text-align: center;
   font-size: 5em;
-  padding: 32px 0;
+  padding: 120px 0;
   /* margin-top: 42px; */
-  background-color: #f8c6ad;
-  border-bottom: solid 5px white;
-  color: #5a5552;
+  /* background-color: #f8c6ad; */
+  /* border-bottom: solid 5px white; */
+  color: #fbfdf9;
+  background-image: url("../images/bowl.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 2% 72%;
+  background-size: 128%;
+  text-shadow: 2px 2px #5a5552;
 }
 .indexlogo {
   max-height: 55px;
@@ -70,7 +76,6 @@ a:active {
   border-radius: 45%;
   height: 45px;
   text-align: center;
-  /* align-items: center; */
 }
 .indexcategory div {
   color: red;
