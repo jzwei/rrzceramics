@@ -2,19 +2,19 @@
 nav {
   padding: 10px;
   display: grid;
-  grid-template-columns: 0.3fr 1fr;
+  grid-template-columns: 1fr 0.3fr;
   font-size: 1em;
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   align-items: center;
   position: absolute;
 }
 
 nav #links {
   /* Flexbox would be another way to do this */
-  text-align: right;
+  text-align: left;
 }
 
 .navlogo {
