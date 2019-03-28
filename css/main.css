@@ -84,7 +84,7 @@ a:active {
 }
 
 /* SHOP *****************************************/
-.shop {
+.shopbackground {
   background-image: url("../images/bowl2.jpg");
   padding: 120px;
   background-repeat: no-repeat;
@@ -92,6 +92,21 @@ a:active {
   background-position: 100% 72%;
   background-size: 128%;
   /* width: 100%; */
+}
+.shopitemcontainer {
+}
+.shopcontent {
+  /* display: flex;
+  align-items: baseline;
+  justify-content: space-between; */
+  /* display: grid; */
+  background-color: white;
+}
+.shopitem {
+  display: flex; /* establish flex container */
+
+  flex-wrap: wrap;
+  position: relative;
 }
 .shopitem img {
   max-height: 200px;
@@ -105,6 +120,13 @@ a:active {
 }
 .shopitemname {
   text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255, 0.6);
+  width: 100%;
+  border-radius: 3%;
 }
 
 /* GALLERY ***************************************/

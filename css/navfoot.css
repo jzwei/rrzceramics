@@ -49,8 +49,8 @@ footer {
   /*margin: 70px;*/
   /*margin-bottom: 10px;*/
   padding: 15px 70px 30px 70px;
-  background-color: #feab4f;
-  border-top: solid 5px white;
+  background-color: white;
+  /* border-top: solid 5px white; */
   /* position: fixed; */
   /* bottom: 0;
   width: 100%;
@@ -65,7 +65,7 @@ footer .footertopic {
   /* border-bottom: solid 1px white; */
   border-bottom: solid 1px black;
   width: 80%;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 
 footer .footerinfo a {
@@ -74,7 +74,7 @@ footer .footerinfo a {
   font-size: 1em;
   /* color: white; */
   color: black;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 footer .footerinfo a:hover {
   font-style: italic;
