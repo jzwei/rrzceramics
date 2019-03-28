@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Sans serif";
-  src: local("../fonts/Chalkduster.ttf");
+  src: local("./fonts/Chalkduster.ttf");
 }
 
 /* Reset */
@@ -125,7 +125,7 @@ a:active {
   top: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(255, 255, 255, 0.6);
-  width: 100%;
+  width: 75%;
   border-radius: 3%;
 }
 
