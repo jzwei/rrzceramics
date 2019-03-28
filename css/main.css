@@ -1,23 +1,17 @@
-/* @font-face {
-  font-family: "Chalkduster";
-  src: url("../fonts/webfonts_Chalkduster/Chalkduster.ttf");
-  src: url("../fonts/webfonts_Chalkduster/Chalkduster.ttf.woff");
-  src: url("../fonts/webfonts_Chalkduster/Chalkduster.ttf.eot");
-  src: url("../fonts/webfonts_Chalkduster/Chalkduster.ffonts.net.txt");
-  src: url("../fonts/webfonts_Chalkduster/Chalkduster.ttf.woff");
-  src: url("https://www.ffonts.net/Chalkduster.font");
-} */
-
 @font-face {
-  font-family: "Chalkduster";
-  src: url("fonts/webfonts_Chalkduster/Chalkduster.ttf.woff") format("woff"),
-    url("fonts/webfonts_Chalkduster/Chalkduster.ttf.svg#Chalkduster")
-      format("svg"),
-    url("fonts/webfonts_Chalkduster/Chalkduster.ttf.eot"),
-    url("fonts/webfonts_Chalkduster/Chalkduster.ttf.eot?#iefix")
-      format("embedded-opentype");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "robotoblack";
+  src: url("fonts/webfonts_Chalkduster/Chalkduster.eot"); /* IE9 Compat Modes */
+  src: url("fonts/webfonts_Chalkduster/Chalkduster.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("fonts/webfonts_Chalkduster/Chalkduster.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("fonts/webfonts_Chalkduster/Chalkduster.woff") format("woff"),
+    /* Pretty Modern Browsers */
+      url("fonts/webfonts_Chalkduster/Chalkduster.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+      url("fonts/webfonts_Chalkduster/Chalkduster.svg#robotoblack")
+      format("svg"); /* Legacy iOS */
 }
 
 /* Reset */
