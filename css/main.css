@@ -8,7 +8,6 @@ body,
 html {
   margin: 0px;
   padding: 0px;
-  /* font-family: "Assistant", sans-serif; */
   font-family: "ColoredCrayons";
   background-color: white;
   color: #5a5552;
@@ -20,26 +19,27 @@ html {
 /* unvisited link */
 a:link {
   color: black;
+  text-decoration: none;
 }
 /* visited link */
 a:visited {
-  color: black;
+  color: #652a1a;
 }
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: #652a1a;
 }
 /* selected link */
 a:active {
-  color: hotpink;
+  color: #652a1a;
 }
 
 /*INDEX PAGE START*/
 
 .indexname {
-  text-align: center;
+  text-align: left;
   font-size: 5em;
-  padding: 120px 0;
+  padding: 120px 4%;
   color: #3a3a3a;
   background-image: url("../images/bowl.jpg");
   background-repeat: no-repeat;
@@ -49,35 +49,16 @@ a:active {
   text-shadow: 2px 2px #fbfdf9;
 }
 
-.indexcontent {
-  /* display: grid; */
-  /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
-  /* grid-auto-columns: 1fr; */
-  /* grid-template-rows: 6fr; */
-  /* grid-template-columns: repeat(5 20%);
-  grid-auto-rows: 1fr; */
-}
 .sectionname {
-  /* grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 6; */
   background-color: white;
   font-size: 2em;
   z-index: 1000;
   padding: 50px;
   text-align: center;
 }
-.section {
-  /* grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 7; */
-  /* outline: solid 5px red; */
-}
 
 .sectioncontent {
-  display: flex;
+  /* display: flex; */
   /* max-width: 100px; */
   /* background-color: blue;
   border: solid 5px blue; */
@@ -96,15 +77,14 @@ a:active {
 .shopitemcontainer {
 }
 .shopcontent {
-  /* display: flex;
+  display: flex;
   align-items: baseline;
-  justify-content: space-between; */
+  justify-content: space-between;
+  flex-wrap: wrap;
   /* display: grid; */
-  background-color: white;
 }
 .shopitem {
   display: flex; /* establish flex container */
-
   flex-wrap: wrap;
   position: relative;
 }
@@ -130,7 +110,10 @@ a:active {
 }
 
 /* GALLERY ***************************************/
-.gallery {
+.gallerycontent {
+  display: flex;
+}
+.gallerybackground {
   background-image: url("../images/bowl.jpg");
   padding: 120px;
   background-repeat: no-repeat;
@@ -138,11 +121,8 @@ a:active {
   background-position: 2% 72%;
   background-size: 128%;
 }
-.galleryitem1 img {
+.galleryitem img {
   max-width: 400px;
-}
-.galleryitem2 img {
-  max-width: 200px;
 }
 
 /* EVENTS ****************************************/
