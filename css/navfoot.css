@@ -101,13 +101,13 @@ footer .logoimage img {
     width: 100%;
   }
 
-  a#logo {
+  /* a#logo {
     display: inline-block;
     padding: 10px;
   }
   a#logo .navlogo {
     max-height: 32px;
-  }
+  } */
   #sidebarMenu {
     position: fixed;
     margin-top: 56px;

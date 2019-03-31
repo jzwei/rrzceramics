@@ -36,16 +36,18 @@ a:active {
 
 /*INDEX PAGE START*/
 
-.indexname {
-  text-align: left;
-  font-size: 5em;
-  padding: 120px 4%;
-  color: #3a3a3a;
+.indexnamebackground {
   background-image: url("../images/bowl.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 2% 72%;
   background-size: 128%;
+}
+.indexname {
+  text-align: left;
+  font-size: 5em;
+  padding: 120px 4%;
+  color: #3a3a3a;
   text-shadow: 2px 2px #fbfdf9;
 }
 
