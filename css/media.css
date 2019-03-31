@@ -24,6 +24,18 @@
   }
 }
 
+@media only screen and (max-width: 1130px) {
+  .eventhide {
+    display: none;
+  }
+  .eventssection {
+    display: inherit;
+  }
+  .eventbox {
+    margin: 25px auto;
+  }
+}
+
 /*FOOTER START**********************/
 .footer {
   padding: 15px 25px 30px 25px;
